@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    background: #121212;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CARD LOGIN */
+
+.div-form {
+
+    border: 1px solid #D4AF37;
+
+    background-color: #F1E7D8;
+
+    width: 90%;
+    max-width: 500px;
+
+    padding: 40px 25px;
+
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.4s;
+}
+
+/* ANIMAÇÃO CARD */
+
+.div-form:hover {
+
+    box-shadow: 0px 0px 25px #D4AF37;
+}
+/* FORM */
+
+.form {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #3A241D;
+}
+
+/* LOGO */
+
+img {
+
+    width: 180px;
+    max-width: 100%;
+
+    margin-bottom: 20px;
+
+}
+
+/* INPUTS */
+
+input {
+
+    width: 100%;
+
+    padding: 14px;
+
+    margin-bottom: 15px;
+
+    border-radius: 12px;
+
+    border: 2px solid transparent;
+
+    background-color: white;
+
+    transition: 0.3s;
+
+    font-size: 15px;
+}
+
+/* INPUT CLICADO */
+
+input:focus {
+
+    outline: none;
+
+    border-color: #7B1E1E;
+
+    transform: scale(1.02);
+
+    box-shadow: 0 0 10px rgba(123, 30, 30, 0.3);
+}
+
+/* bOTÃO LOGAR */
+
+.logar {
+
+    transition: 0.3s;
+
+    background-color: #5A1212;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+.logar:hover {
+
+    background-color: #7B1E1E;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+
+    .div-form {
+
+        padding: 30px 20px;
+
+        border-radius: 20px;
+    }
+
+    img {
+
+        width: 140px;
+    }
+
+    input,
+    button {
+
+        font-size: 14px;
+    }
+}

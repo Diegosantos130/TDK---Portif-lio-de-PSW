@@ -1,0 +1,145 @@
+/* ==========================
+   CONFIGURAÇÕES GERAIS
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #121212; /* Fundo principal */
+    color: #D4AF37; /* Cor padrão dos títulos */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem; /* 16px */
+}
+
+/* ==========================
+   CONTEÚDO PRINCIPAL
+========================== */
+
+main {
+    padding: 2rem 0;
+}
+
+/* ==========================
+   TÍTULO DA SEÇÃO
+========================== */
+
+.titulo-pratos {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.titulo-pratos h1 {
+    font-size: 2.5rem;
+    color: #D4AF37;
+}
+
+.titulo-pratos p {
+    color: #F5E6CA;
+    margin-top: 0.5rem;
+}
+
+/* ==========================
+   CONTAINER DOS CARDS
+========================== */
+
+.pratos-principais {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* ==========================
+   CARD INDIVIDUAL
+========================== */
+
+.cards-pratos-principais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    flex: 1;
+    max-width: 25rem;
+
+    background-color: #2C0000;
+    color: #F5E6CA;
+
+    border: 1px solid #D4AF37;
+    border-radius: 10px;
+
+    padding: 1rem;
+
+    transition: 0.5s;
+}
+
+/* Efeito ao passar o mouse */
+
+.cards-pratos-principais:hover {
+    box-shadow: 0px 0px 25px #D4AF37;
+    transform: scale(1.02);
+}
+
+/* ==========================
+   IMAGEM DO PRATO
+========================== */
+
+.foto-prato {
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 3px solid #D4AF37;
+}
+
+/* ==========================
+   TÍTULO DO CARD
+========================== */
+
+.cards-pratos-principais h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #D4AF37;
+}
+
+/* ==========================
+   TEXTO DO CARD
+========================== */
+
+.cards-pratos-principais p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* ==========================
+   RESPONSIVIDADE
+========================== */
+
+@media (max-width: 600px) {
+
+    .pratos-principais {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-pratos-principais {
+        max-width: 100%;
+    }
+
+    .foto-prato {
+        width: 140px;
+        height: 140px;
+    }
+
+    .titulo-pratos h1 {
+        font-size: 2rem;
+    }
+}
