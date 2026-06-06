@@ -52,6 +52,12 @@ if(!isset($_SESSION['login'])){
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, hic nam! Accusamus, facilis ea! Delectus eligendi quo illum laboriosam debitis. Tenetur enim fugit impedit at nobis voluptate vitae voluptatem inventore.</p>
             </div>
 
+            <div class="cards-pratos-principais">
+                <img src="https://img.magnific.com/fotos-gratis/composicao-de-comida-brasileira-deliciosa-de-alto-angulo_23-2148739223.jpg?semt=ais_hybrid&w=740&q=80" alt="Prato de comida deliciosa" width="400" class="foto-prato">
+                <h2>Prato 01</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, hic nam! Accusamus, facilis ea! Delectus eligendi quo illum laboriosam debitis. Tenetur enim fugit impedit at nobis voluptate vitae voluptatem inventore.</p>
+            </div>
+
             
 
             
