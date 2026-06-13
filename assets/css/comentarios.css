@@ -1,0 +1,126 @@
+.titulo-comentario, .titulo-add-comentario {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.titulo-comentario h2 {
+    font-size: 2.5rem;
+    color: #D4AF37;
+}
+
+
+.comentarios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Divide em 3 colunas iguais */
+    grid-template-rows: repeat(2, auto);    /* Define 2 linhas com altura automática */
+    gap: 20px;
+    justify-items: center; 
+    justify-content: center; 
+
+}
+
+
+
+.comentario {
+    width: 90%; 
+    flex: 3;
+    
+    background-color: #2C0000;
+    border: 1px solid #D4AF37;
+    border-radius: 10px;
+
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+
+.comentario h4 {
+    margin-bottom: 10px;
+}
+
+.comentario p {
+    color: #F5E6CA;
+}
+
+.comentario:hover {
+    box-shadow: 0px 0px 25px #D4AF37;
+    transform: scale(1.02);
+}
+
+
+
+
+
+
+/*=================================================
+
+        Adicionar comentário
+
+===================================================*/
+
+.add-comentario {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.add-comentario form {
+    width: 50%;    
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.add-comentario textarea {
+    width: 50%;
+    height: auto;
+    background-color:#2C0000;
+    border-radius: 10px;
+    border-color: #D4AF37;
+    color: #F5E6CA;
+    font-size: 1.05rem;
+    padding: 1.05rem;
+    border-radius: 40px;
+
+}
+
+.enviar-comentario {
+    color: #000000;
+    font-size: 1.05rem;
+    background-color: #D4AF37;
+    transition: 0.5s;
+    padding: 1.05rem;
+    border-radius: 40px;
+    cursor: pointer;
+    border-color: #D4AF37;
+}
+
+.enviar-comentario:hover {
+    box-shadow: 0px 0px 25px #D4AF37;
+}
+
+.titulo-add-comentario {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+/* Ativa o layout de celular para telas de até 768px */
+@media (max-width: 768px) {
+  .comentarios {
+    grid-template-columns: 1fr;        /* Muda para apenas 1 coluna */
+    grid-template-rows: repeat(6, auto); /* Ajusta para 6 linhas (uma para cada comentário) */
+  }
+
+  .comentario {
+    width: 50%;
+  }
+}

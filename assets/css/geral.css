@@ -1,0 +1,6 @@
+.separacao {
+    margin: 10px;
+    border: none;
+    height: 2px; /* Espessura da linha */
+    background-color: #D4AF37; /* Cor da linha */
+}
