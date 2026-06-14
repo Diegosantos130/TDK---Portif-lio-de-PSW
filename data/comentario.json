@@ -30,5 +30,17 @@
     {
         "usuario": "Administrador",
         "comentario": "O melhor atendimento que ja tive foi aqui\r\n"
+    },
+    {
+        "usuario": "Administrador",
+        "comentario": "Empresa com ótimo atendimento"
+    },
+    {
+        "usuario": "Administrador",
+        "comentario": "Pratos feitos de forma excelente "
+    },
+    {
+        "usuario": "Administrador",
+        "comentario": "Legal"
     }
 ]
