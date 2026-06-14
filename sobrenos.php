@@ -31,7 +31,20 @@
 
         <div class="sobrenos">
 
-            <div class="fundador"></div>
+            <div class="fundador">
+                <img src="assets/imagens/taemy.png" alt="">
+
+                <div class="texto">
+                    <h2>Taemy</h2>
+
+                    <p>
+                        Taemy é uma das fundadoras da TDK e desempenha um papel fundamental na construção da identidade da empresa. Seu compromisso com a qualidade, a organização e a excelência faz com que cada cliente seja recebido com atenção e respeito. Sempre preocupada em proporcionar uma experiência agradável, acredita que um bom restaurante vai além de servir refeições: ele cria momentos especiais para famílias e amigos.
+                    </p>
+                    <p>
+                        Sua dedicação está presente em cada etapa do funcionamento da TDK, desde o cuidado com os ingredientes utilizados até a busca constante por um atendimento acolhedor e eficiente. Com visão inovadora e paixão pela gastronomia, Taemy contribui diariamente para que a rede de restaurantes continue crescendo sem abrir mão dos valores que marcaram sua fundação.
+                    </p>
+                </div>
+            </div>
 
             <div class="fundador">
                 <div class="texto">
@@ -55,10 +68,10 @@
                 <div class="texto">
                     <h2>Kellvin</h2>
                     <p>
-                        Kelvin é um dos fundadores da TDK e contribui de forma decisiva para o fortalecimento da marca e para o desenvolvimento da empresa. Com criatividade, responsabilidade e visão empreendedora, participa ativamente das decisões que impulsionam o crescimento da rede de restaurantes. Seu foco é encontrar novas oportunidades, aprimorar os serviços oferecidos e garantir que a TDK continue se destacando pela qualidade de seus produtos e pelo excelente atendimento.
+                        Kellvin é um dos fundadores da TDK e contribui de forma decisiva para o fortalecimento da marca e para o desenvolvimento da empresa. Com criatividade, responsabilidade e visão empreendedora, participa ativamente das decisões que impulsionam o crescimento da rede de restaurantes. Seu foco é encontrar novas oportunidades, aprimorar os serviços oferecidos e garantir que a TDK continue se destacando pela qualidade de seus produtos e pelo excelente atendimento.
                     </p>
                     <p>
-                        Acreditando que o sucesso é resultado do trabalho em equipe, Kelvin busca constantemente aperfeiçoar os processos da empresa e incentivar um ambiente colaborativo entre todos os colaboradores. Sua dedicação e comprometimento ajudam a transformar a TDK em um lugar onde tradição, inovação e paixão pela boa gastronomia caminham lado a lado.
+                        Acreditando que o sucesso é resultado do trabalho em equipe, Kellvin busca constantemente aperfeiçoar os processos da empresa e incentivar um ambiente colaborativo entre todos os colaboradores. Sua dedicação e comprometimento ajudam a transformar a TDK em um lugar onde tradição, inovação e paixão pela boa gastronomia caminham lado a lado.
                     </p>
                 </div>
             </div>
@@ -72,7 +85,7 @@
 
                 <div class="texto">
                     <h2>Sobre a TDK</h2>
-                    <p>A TDK é uma rede de restaurantes criada com o objetivo de oferecer uma experiência gastronômica de qualidade, unindo sabor, conforto e excelência no atendimento. O nome TDK representa as iniciais de seus fundadores: Taemy, Diego e Kelvin, três empreendedores que transformaram uma ideia em um projeto voltado para a satisfação de seus clientes.
+                    <p>A TDK é uma rede de restaurantes criada com o objetivo de oferecer uma experiência gastronômica de qualidade, unindo sabor, conforto e excelência no atendimento. O nome TDK representa as iniciais de seus fundadores: Taemy, Diego e Kellvin, três empreendedores que transformaram uma ideia em um projeto voltado para a satisfação de seus clientes.
 
 
 
