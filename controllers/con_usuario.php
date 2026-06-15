@@ -92,8 +92,8 @@ function logar_usuario($email, $senha){
     // Verifica se as credenciais pertencem ao administrador.
     if($email == "admin@gmail.tdk" && $senha == "123456"){
 
-        // Gera um novo ID para a sessão atual.
-        // O parâmetro true remove a sessão antiga.
+        // Gera um novo ID para a sessão do usuário, mantendo os dados já armazenados.
+        // Isso aumenta a segurança do sistema e ajuda a evitar ataques de fixação de sessão.
         session_regenerate_id(true);
 
         // Armazena dados na sessão.

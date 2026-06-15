@@ -18,6 +18,8 @@
             <label for="senha">Senha:</label>
             <input type="password" name="senha" placeholder="Senha" required>
             <input type="submit" value="Cadastrar" class="logar">
+
+            <a href="login.php">Logar</a>
         </form>
     
     </div>
