@@ -1,5 +1,3 @@
-
-
 /* ==========================
    TÍTULO DA SEÇÃO
 ========================== */
@@ -20,10 +18,13 @@
 }
 
 /* ==========================
-   CONTAINER DOS CARDS
+   CONTAINERS
 ========================== */
 
-.pratos-principais {
+.pratos-principais,
+.cardapio-principal,
+.cardapio-acompanhamento,
+.cardapio-sobremesa {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
@@ -32,16 +33,19 @@
 }
 
 /* ==========================
-   CARD INDIVIDUAL
+   CARDS
 ========================== */
 
-.cards-pratos-principais {
+.cards-pratos-principais,
+.prato,
+.entrada,
+.sobremesa {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     flex: 1;
-    max-width: 25rem;
+    max-width: 20rem;
 
     background-color: #2C0000;
     color: #F5E6CA;
@@ -54,15 +58,37 @@
     transition: 0.5s;
 }
 
-/* Efeito ao passar o mouse */
+/* ==========================
+   CARDÁPIO PRINCIPAL
+   (3 CARDS POR LINHA)
+========================== */
 
-.cards-pratos-principais:hover {
+.cardapio-principal .prato{
+    flex: 0 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+}
+
+@media (max-width: 700px){
+    .cardapio-principal .prato{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+/* ==========================
+   EFEITO HOVER
+========================== */
+
+.cards-pratos-principais:hover,
+.prato:hover,
+.entrada:hover,
+.sobremesa:hover {
     box-shadow: 0px 0px 25px #D4AF37;
     transform: scale(1.02);
 }
 
 /* ==========================
-   IMAGEM DO PRATO
+   IMAGEM
 ========================== */
 
 .foto-prato {
@@ -76,20 +102,26 @@
 }
 
 /* ==========================
-   TÍTULO DO CARD
+   TÍTULO
 ========================== */
 
-.cards-pratos-principais h2 {
+.cards-pratos-principais h2,
+.prato h2,
+.entrada h2,
+.sobremesa h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #D4AF37;
 }
 
 /* ==========================
-   TEXTO DO CARD
+   TEXTO
 ========================== */
 
-.cards-pratos-principais p {
+.cards-pratos-principais p,
+.prato p,
+.entrada p,
+.sobremesa p {
     text-align: center;
     line-height: 1.6;
 }
@@ -100,13 +132,20 @@
 
 @media (max-width: 600px) {
 
-    .pratos-principais {
+    .pratos-principais,
+    .cardapio-principal,
+    .cardapio-acompanhamento,
+    .cardapio-sobremesa {
         flex-direction: column;
         align-items: center;
     }
 
-    .cards-pratos-principais {
+    .cards-pratos-principais,
+    .prato,
+    .entrada,
+    .sobremesa {
         max-width: 100%;
+        
     }
 
     .foto-prato {

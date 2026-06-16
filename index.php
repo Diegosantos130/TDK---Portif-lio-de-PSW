@@ -44,6 +44,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TDK</title>
 
+    <!-- Adiciona o horário atual à URL do CSS para impedir que o navegador utilize uma versão em cache. -->
     <link rel="stylesheet" href="assets/css/section-pratos.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="assets/css/header.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="assets/css/footer.css?v=<?php echo time(); ?>">
@@ -53,7 +54,7 @@
 
 </head>
 <body>
-
+    <!-- Inclui o cabeçalho da página, evitando duplicidade caso já tenha sido carregado. -->
     <?php require_once 'includes/header.php'; ?>
 
     
@@ -67,27 +68,27 @@
         <section class="pratos-principais" > <!-- Cards das principais comidas -->
             
             <div class="cards-pratos-principais">
-                <img src="https://img.magnific.com/fotos-gratis/composicao-de-comida-brasileira-deliciosa-de-alto-angulo_23-2148739223.jpg?semt=ais_hybrid&w=740&q=80" alt="Prato de comida deliciosa" width="400" class="foto-prato">
-                <h2>Prato 01</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, hic nam! Accusamus, facilis ea! Delectus eligendi quo illum laboriosam debitis. Tenetur enim fugit impedit at nobis voluptate vitae voluptatem inventore.</p>
+                <h2>Pizza Napoletana</h2>
+                <img src="assets/imagens/pratos/principal/Pizza napoletana.jpeg" alt="" class="foto-prato">
+                <p>Símbolo da gastronomia italiana, a Pizza Napoletana destaca-se por sua massa leve, macia e de longa fermentação, assada em altas temperaturas para alcançar bordas aeradas e levemente tostadas. Coberta com ingredientes frescos e selecionados, oferece o equilíbrio perfeito entre simplicidade, aroma e sabor, traduzindo a essência da tradição napolitana.</p>
             </div>
 
             <div class="cards-pratos-principais">
-                <img src="https://img.magnific.com/fotos-gratis/composicao-de-comida-brasileira-deliciosa-de-alto-angulo_23-2148739223.jpg?semt=ais_hybrid&w=740&q=80" alt="Prato de comida deliciosa" width="400" class="foto-prato">
-                <h2>Prato 01</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, hic nam! Accusamus, facilis ea! Delectus eligendi quo illum laboriosam debitis. Tenetur enim fugit impedit at nobis voluptate vitae voluptatem inventore.</p>
+                <h2>Cannoli</h2>
+                <img src="assets/imagens/pratos/principal/Cannoli.jpeg" alt="" class="foto-prato">
+                <p>Símbolo da confeitaria siciliana, o Cannoli consiste em uma massa fina e crocante recheada com um creme delicado e saboroso. Sua combinação única de texturas e sabores oferece uma experiência irresistível, tornando essa sobremesa uma das mais tradicionais e apreciadas da gastronomia italiana.</p>
             </div>
 
             <div class="cards-pratos-principais">
-                <img src="https://img.magnific.com/fotos-gratis/composicao-de-comida-brasileira-deliciosa-de-alto-angulo_23-2148739223.jpg?semt=ais_hybrid&w=740&q=80" alt="Prato de comida deliciosa" width="400" class="foto-prato">
-                <h2>Prato 01</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, hic nam! Accusamus, facilis ea! Delectus eligendi quo illum laboriosam debitis. Tenetur enim fugit impedit at nobis voluptate vitae voluptatem inventore.</p>
+                <h2>Bruschetta</h2>
+                <img src="assets/imagens/pratos/entrada/Bruschetta.jpeg" alt="" class="foto-prato">
+                <p>Tradicional entrada italiana, a Bruschetta combina fatias de pão artesanal levemente tostadas com ingredientes frescos e cuidadosamente selecionados. Coberta com tomates maduros, queijos cremosos, ervas aromáticas e outros acompanhamentos típicos, oferece uma perfeita harmonia entre crocância, leveza e sabor. Um prato simples, elegante e cheio de autenticidade, ideal para abrir qualquer refeição com estilo.</p>
             </div>
 
             <div class="cards-pratos-principais">
-                <img src="https://img.magnific.com/fotos-gratis/composicao-de-comida-brasileira-deliciosa-de-alto-angulo_23-2148739223.jpg?semt=ais_hybrid&w=740&q=80" alt="Prato de comida deliciosa" width="400" class="foto-prato">
-                <h2>Prato 01</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, hic nam! Accusamus, facilis ea! Delectus eligendi quo illum laboriosam debitis. Tenetur enim fugit impedit at nobis voluptate vitae voluptatem inventore.</p>
+                <h2>Tiramisù</h2>
+                <img src="assets/imagens/pratos/sobremesas/Tiramisù.jpeg" alt="" class="foto-prato">
+                <p>Ícone da confeitaria italiana, o Tiramisù combina camadas delicadas de biscoitos levemente umedecidos em café com um creme suave e aveludado à base de mascarpone. Finalizado com uma generosa camada de cacau, oferece o equilíbrio perfeito entre doçura, cremosidade e notas marcantes de café. Uma sobremesa refinada e atemporal, que traduz toda a tradição e o requinte da gastronomia italiana em cada colherada.</p>
             </div>
 
             
