@@ -46,5 +46,13 @@
     {
         "usuario": "Diego",
         "comentario": "Gostei muito do restaurente, parece o refeitório do IF"
+    },
+    {
+        "usuario": "Taemy",
+        "comentario": "Os pratos são feitos com uma maestria incomparável.\r\n"
+    },
+    {
+        "usuario": "welison",
+        "comentario": "atendimento muito bom, pratos feitos com muito carinho"
     }
 ]

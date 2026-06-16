@@ -28,5 +28,15 @@
         "nome": "Diego",
         "email": "dsantossilva900@gmail.com",
         "senha": "123456"
+    },
+    {
+        "nome": "Taemy",
+        "email": "tahfalesfalado@gmail.com",
+        "senha": "taemylinda"
+    },
+    {
+        "nome": "welison",
+        "email": "welison@gmail.com",
+        "senha": "123"
     }
 ]
